@@ -26,6 +26,8 @@ header {
 .logo {
     cursor: pointer;
     margin-right: auto;
+    width: 150px;
+    fill: white;
 }
 
 .nav-links {

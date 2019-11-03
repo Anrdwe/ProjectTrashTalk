@@ -1,0 +1,35 @@
+.home-box{
+    width: 100vw;
+    height: 500px;
+    position: relative;
+    background-color: white;
+    top: 800px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.home-text{
+    position: absolute;
+    top: 10px;
+    text-align: justify;
+    padding: 100px 100px;
+}
+
+.about-box{
+    width: 100vw;
+    height: 500px;
+    position: relative;
+    background-color: white;
+    top: 10vh;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.about-text{
+    position: absolute;
+    
+    text-align: justify;
+    padding: 5% 5%;
+}

@@ -1,11 +1,12 @@
 import React from 'react';
 import './Nav.css';
 import {Link} from 'react-router-dom';
+import logo from "./TrashTalk.svg";
 
 function Nav() {
     return(
         <header>
-        <img class="logo" src="./TrashTalk.svg" alt="logo"/>
+        <img class="logo" src={logo} alt="logo"/>
         <nav>
             <ul className="nav-links">
                 <Link to="/" className="nav-style">
