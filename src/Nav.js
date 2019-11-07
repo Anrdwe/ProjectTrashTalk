@@ -1,7 +1,7 @@
 import React from 'react';
 import './Nav.css';
 import {Link} from 'react-router-dom';
-import logo from "./TrashTalk.svg";
+import logo from "./TrashTalkLogo.svg";
 
 function Nav() {
     return(
