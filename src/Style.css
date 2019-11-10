@@ -40,15 +40,48 @@
 }
 
 .board-box{
+    display: block;
     position: relative;
     background-color: white;
-    width:1000px;
+    height: auto;
+    min-height: 100%;
+    width: 600px;
     margin: auto;
     box-sizing: border-box;
 }
 
 .board-text{
-    position: absolute;
+    position: relative;
     font-family: roboto;
     text-align: center;
+    bottom: 30px
+}
+
+.board-name{
+    position: relative;
+    text-align: left;
+    color: #59A96A;
+    padding: 30px 30px;
+}
+
+.board-email{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.post-form{
+    top: 30px;
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 30px;
+}
+
+.post-input{
+    position: relative;
+    padding: 10px 10px;
 }

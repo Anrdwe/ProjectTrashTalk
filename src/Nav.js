@@ -15,6 +15,9 @@ function Nav() {
                 <Link to="/board" className="nav-style">
                     <li>Board</li>
                 </Link>
+                <Link to="/post" className="nav-style">
+                    <li>Post</li>
+                </Link>
                 <Link to="/about" className="nav-style">
                     <li>About</li>
                 </Link>
