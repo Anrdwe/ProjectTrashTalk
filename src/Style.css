@@ -1,5 +1,5 @@
 .home-box{
-    width: 100vw;
+    width: 99%;
     height: 500px;
     position: relative;
     background-color: white;
@@ -18,7 +18,7 @@
 }
 
 .about-box{
-    width: 100vw;
+    width: 99%;
     height: 500px;
     position: relative;
     background-color: white;
@@ -37,6 +37,7 @@
 
 .board{
     position: relative;
+    overflow-x: hidden;
 }
 
 .board-box{
@@ -79,6 +80,9 @@
     background-color: white;
     padding: 20px 20px;
     border-radius: 30px;
+}
+.submit-color{
+    background-color: rgba(121, 169, 89, 1); 
 }
 
 .post-input{

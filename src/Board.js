@@ -1,5 +1,6 @@
 import React from 'react'
 import './Style.css'
+import BoardComponent from "./BoardComponent"
 
 class Board extends React.Component {
 
@@ -14,15 +15,6 @@ class Board extends React.Component {
     componentDidMount() {
         this.getPosts();
     }
-    /*componentDidUpdate() {
-        fetch('http://localhost:4000/posts')
-        .then(response => response.json())
-        .then(response => {
-            if (response.data !== posts) {
-                this.setState({posts: response.data})
-            }
-        }
-    }*/
 
     getPosts() {
         fetch('http://localhost:4000/posts')
@@ -33,10 +25,8 @@ class Board extends React.Component {
 
     renderBoard ({email, username, message, org}) {
         return (
-        <div  className="board-box">
-            <div className="board-name">{username}, {org}</div>
-            <div className="board-text">{message}</div>
-            <div className="board-email">{email}</div>
+        <div className='board-box'>
+            <BoardComponent username={username} org={org} message={message} email={email}/>
         </div>
         )
     }

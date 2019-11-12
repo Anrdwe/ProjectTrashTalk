@@ -1,4 +1,3 @@
-//import {ReactComponent as Logo} from "./TrashTalk.svg"
 import React from "react"
 import "./TrashTalk.css"
 

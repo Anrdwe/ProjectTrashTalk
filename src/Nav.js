@@ -7,7 +7,7 @@ function Nav() {
     return(
         <header>
         <img class="logo" src={logo} alt="logo"/>
-        <nav>
+        <div>
             <ul className="nav-links">
                 <Link to="/" className="nav-style">
                     <li>Home</li>
@@ -22,7 +22,7 @@ function Nav() {
                     <li>About</li>
                 </Link>
             </ul>
-        </nav>
+        </div>
         <Link to="/contact" className="cta">
             <button>Contact</button>
         </Link>
