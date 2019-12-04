@@ -1,7 +1,7 @@
 import React from 'react';
-import './Nav.css';
+import '../styles/Nav.css';
 import {Link} from 'react-router-dom';
-import logo from "./TrashTalkLogo.svg";
+import logo from "../styles/TrashTalkLogo.svg";
 
 function Nav() {
     return(
@@ -23,8 +23,8 @@ function Nav() {
                 </Link>
             </ul>
         </div>
-        <Link to="/contact" className="cta">
-            <button>Contact</button>
+        <Link to="/login" className="cta">
+            <button>Login</button>
         </Link>
         </header>
     )

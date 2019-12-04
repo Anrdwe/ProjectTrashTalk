@@ -1,5 +1,5 @@
 import React from "react"
-import "./TrashTalk.css"
+import "../styles/TrashTalk.css"
 
 class Logo extends React.Component {
     render() {

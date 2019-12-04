@@ -43,7 +43,7 @@
 .board-box{
     display: block;
     position: relative;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     height: auto;
     min-height: 100%;
     width: 600px;
@@ -88,4 +88,70 @@
 .post-input{
     position: relative;
     padding: 10px 10px;
+}
+
+.boardMessage{
+    font-family: roboto;
+    text-align: justify;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.boardNameOrg{
+    font-family: roboto;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.boardImage{
+    max-height: 50%;
+    margin: auto
+}
+
+.loginTitle{
+    text-align: center;
+    font-size: 30px;
+    font-family: roboto;
+    letter-spacing: 1.5px;
+}
+
+.loginIcon{
+    position: relative;
+    height: 40px;
+    margin: auto;
+    left: 110px;
+}
+
+.loginButton{
+    position: relative;
+    margin: auto;
+    left: 90px;
+}
+
+.wrongCredentialsError{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.signupTextUnderLoginButton{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.loginLoading{
+    position: relative;
+    margin: auto;
+    left: 110px;
+}
+
+.boardLoading{
+    position: relative;
+    margin: auto;
+    top: 100px;
+    left: 50%;
 }

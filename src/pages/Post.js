@@ -1,5 +1,5 @@
 import React from 'react'
-import PostComponent from './PostComponent'
+import PostComponent from '../components/PostComponent'
 
 class Post extends React.Component {
     constructor() {
@@ -8,7 +8,8 @@ class Post extends React.Component {
             email: "",
             username: "",
             org: "",
-            message: ""
+            message: "",
+            imageUrl: ""
         }
         this.handleChange=this.handleChange.bind(this)
     }
